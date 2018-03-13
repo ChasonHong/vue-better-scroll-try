@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import Tabs from '@/components/Tab'
-
+import Tab from '@/components/Tab'
+import Tabs from '@/components/Tabs'
 Vue.use(Router);
 
 export default new Router({
@@ -15,6 +15,11 @@ export default new Router({
     {
       path: '/tab',
       name: 'Tab',
+      component: Tab
+    },
+    {
+      path: '/tabs',
+      name: 'Tabs',
       component: Tabs
     }
   ]

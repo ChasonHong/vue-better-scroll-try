@@ -120,7 +120,7 @@
               arr.push(count++)
             }
             resolve(arr)
-          }, 1000)
+          }, 400)
         })
       },
       onPullingDown () {
